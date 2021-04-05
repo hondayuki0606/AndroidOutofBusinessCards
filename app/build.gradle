@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    //以下１行追加
+    id 'kotlin-android-extensions'
+
 }
 
 android {
