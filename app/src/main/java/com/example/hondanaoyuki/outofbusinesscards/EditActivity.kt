@@ -2,7 +2,6 @@ package com.example.hondanaoyuki.outofbusinesscards
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.preference.Preference
 import android.preference.PreferenceManager
 import kotlinx.android.synthetic.main.activity_edit.*
 

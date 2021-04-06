@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.preference.PreferenceManager
 import android.view.Menu
-import kotlinx.android.synthetic.main.activity_edit.*
 import android.content.Intent
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
