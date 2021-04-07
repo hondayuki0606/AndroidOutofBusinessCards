@@ -29,8 +29,8 @@ class MainActivity : AppCompatActivity() {
             companyText.setText(company)
             postalText.setText(postal)
             addressText.setText(address)
-            telText.setText(tel)
-            faxText.setText(fax)
+            telText.text = "tel:" + tel
+            faxText.text = "fax:" + fax
             emailText.setText(email)
             urlText.setText(url)
             positionText.setText(position)

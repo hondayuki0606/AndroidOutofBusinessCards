@@ -13,6 +13,8 @@
         android:layout_marginStart="68dp"
         android:layout_marginTop="165dp"
         android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,6 +81,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="232dp"
         android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/companyText"
         app:layout_constraintTop_toTopOf="@+id/companyText" />
 

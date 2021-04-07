@@ -45,7 +45,7 @@ class EditActivity : AppCompatActivity() {
         val pref = PreferenceManager.getDefaultSharedPreferences(this)
         val editor = pref.edit()
         editor.putString("company",companyEdit.text.toString())
-                .putString("postal",positionEdit.text.toString())
+                .putString("postal",postalEdit.text.toString())
                 .putString("address",addressEdit.text.toString())
                 .putString("tel",telEdit.text.toString())
                 .putString("fax",faxEdit.text.toString())
